@@ -73,7 +73,7 @@ const loop = () => {
   window.requestAnimationFrame(loop);
 };
 loop();
-
+//Comment
 //Timeline Magic
 const tl = gsap.timeline({defaults:{ duration: 1}})
 tl.fromTo(mesh.scale, {z:0, x:0, y:0}, {z:1, x:1, y:1});
