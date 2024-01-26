@@ -10,7 +10,7 @@ const geometry = new THREE.SphereGeometry(3, 64, 64)
 
 //Add material to sphere
 const material = new THREE.MeshStandardMaterial({
-  color: '#00ff83',
+  color: '#e5e5e5',
   roughness: 0.5,
   metalness: 0.5,
 })
@@ -27,7 +27,7 @@ const sizes = {
 }
 
 //Light
-const light = new THREE.PointLight(0xffffff, 150, 100);
+const light = new THREE.PointLight(0xffffff, 200, 100);
 light.position.set(0, 10, 10);
 scene.add(light);
 
